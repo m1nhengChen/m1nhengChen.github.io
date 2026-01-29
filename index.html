@@ -59,7 +59,7 @@
     <div class="sidebar sticky">
       <div itemscope itemtype="http://schema.org/Person" class="profile_box">
         <div class="author__avatar">
-          <img src="static/picture/ry_profile.jpeg" class="author__avatar" alt="Minheng Chen">
+          <img src="static/picture/cmh.png" class="author__avatar" alt="Minheng Chen">
         </div>
         <div class="author__content">
           <h3 class="author__name">Minheng Chen</h3>
@@ -70,7 +70,7 @@
           <ul class="author__urls social-icons">
             <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Arlington, TX, USA</li>
             <li><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> CSE, UT Arlington</li>
-            <li><a href="mxc2442@mavs.uta.edu"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
+            <li><a href="mailto:mxc2442@mavs.uta.edu"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
                 Email</a>
             </li>
             <li><a href="https://scholar.google.com/citations?user=_Cc_GjIAAAAJ"><i
@@ -102,10 +102,10 @@
               href="https://www.uta.edu/academics/faculty/profile?username=zhud2">Prof. Dajiang Zhu</a>, and I’m also a member of the <a
               href="https://ranger.uta.edu/~zhu/">Medical Imaging and Neuroscientific Discovery Laboratory (MIND)</a>. 
             Previously, I received the B.E. degree from <a
-              href="https://www.seu.edu.cn/">Southeast University</a>, under the supervision of <a href="https://scholar.google.com/citations?user=0eq6vFAAAAAJ"> Prof. Youyong Kong</a>. 
+              href="https://www.seu.edu.cn/">Southeast University</a>, under the supervision of <a href="https://scholar.google.com/citations?user=0eq6vFAAAAAJ"> Prof. Youyong Kong</a>.</p>
           <p>My research currently focuses on developing advanced computational methods for imaging-based brain disease diagnosis and representation learning algorithms for brain network analysis. 
-            Additionally, I have a long-standing interest in designing efficient algorithms for image-guided interventions and computer-aided diagnosis.
-          <p>I’m always happy to talk about research. Feel free to reach out if our interests overlap!</p>
+            Additionally, I have a long-standing interest in designing efficient algorithms for image-guided interventions and computer-aided diagnosis.</p>
+          <p><strong>I’m always happy to talk about research. Feel free to reach out if our interests overlap!</strong></p>
           <h1 id="news">🔥 News</h1>
           <ul>
             <li><em>2025.11.03</em>: 🎉 Invited as a peer reviewer for Transportation Research Part A: Policy and
@@ -217,14 +217,10 @@
             <li><em>2021.10</em>: 💰 Excellent Student; Shanghai Municipal Scholarship; Major Special Scholarship –
               Total 13,000 CNY</li>
           </ul>
-          <h1 id="-educations">📖 Educations</h1>
+          <h1 id="-educations">📖 Academic Services</h1>
           <ul>
-            <li><em>2024.09 - Present</em>, Direct Ph.D. Program in Urban Transportation, Urban Mobility Institute at
-              Tongji University, Shanghai.</li>
-            <li><em>2025.09 - Present</em>, Joint Training Ph.D. (Faculty of Engineering), The Hong Kong Polytechnic
-              University, Hong Kong.</li>
-            <li><em>2021.09 - 2023.09</em>, Minor in Finance, Fudan University, Shanghai.</li>
-            <li><em>2020.10 - 2024.06</em>, B.S. in Supply Chain Management, Shanghai Maritime University, Shanghai.
+            <li><em>Conference Reviewer:</em>ISBI 2025-26, AAAI 2026, MIDL 2026</li>
+            <li><em>Journal Reviewer:</em>IEEE Journal of Biomedical and Health Informatics (J-BHI), IEEE Transactions on Medical Imaging (TMI)</li>
             </li>
           </ul>
           <h1 id="-visitor-map">🌍 Visitor Map</h1>
@@ -233,10 +229,8 @@
             
 
           <div class="logo-row" style="margin-top: 40px; text-align: center;">
-            <img src="./static/picture/tongji.png" style="height: 80px;margin-right: 30px;" alt="" />
-            <img src="./static/picture/fd.png" style="height: 80px;" alt="" />
-            <img src="./static/picture/gl.jpg"  style="height: 80px;" alt="" />
-            <img src="./static/picture/mit.svg" style="height: 50px;" alt="" />
+            <img src="./static/picture/seu.png" style="height: 80px;margin-right: 30px;" alt="" />
+            <img src="./static/picture/UT_Arlington_Logo.png" style="height: 80px;" alt="" />
           </div>
 
 
@@ -258,25 +252,6 @@
 
     gtag('config', "");
   </script>
-
-
-  <script>
-    $(document).ready(function () {
-
-      var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/zhiyuansu0326/zhiyuansu0326.github.io@'
-
-      $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-        var totalCitation = data['citedby']
-        document.getElementById('total_cit').innerHTML = totalCitation;
-        var citationEles = document.getElementsByClassName('show_paper_citations')
-        Array.prototype.forEach.call(citationEles, element => {
-          var paperId = element.getAttribute('data')
-          var numCitations = data['publications'][paperId]['num_citations']
-          element.innerHTML = '| Citations: ' + numCitations;
-        });
-      });
-    })
-  </script>
   </section>
   </div>
   </article>
@@ -289,21 +264,6 @@
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', "G-SWFCX99KQZ");
-  </script>
-  <script>
-    $(document).ready(function () {
-      var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/rayeren/rayeren.github.io@'
-      $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-        // var totalCitation = data['citedby']
-        // document.getElementById('total_cit').innerHTML = totalCitation;
-        var citationEles = document.getElementsByClassName('show_paper_citations')
-        Array.prototype.forEach.call(citationEles, element => {
-          var paperId = element.getAttribute('data')
-          var numCitations = data['publications'][paperId]['num_citations']
-          element.innerHTML = '| Citations: ' + numCitations;
-        });
-      });
-    })
   </script>
 </body>
 
